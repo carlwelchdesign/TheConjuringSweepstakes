@@ -1,0 +1,96 @@
+<div class="footer">
+
+
+    <div class="social left">
+ <!--       <div class="facebook">
+            <a href="http://www.facebook.com/TheConjuringMovie?group_id=0" target="_blank"><img border=0 src="images/facebook.png"></a>
+        </div>
+        <div class="twitter">
+            <a href="http://twitter.com/wbpictures" target="_blank"><img border=0 src="images/twitter.png"></a>
+        </div>-->
+        <div class="sharing">
+            Share
+        </div>
+
+        <div class="share-wrapper">
+            <div class="share-sites">
+                <div class="facebook-like">
+                    <!--this cannot be XML driven-->
+                    <div class="fb-like" data-href="<? echo $SITE_PATH ?>" data-send="false" data-layout="button_count" data-width="85" data-show-faces="false"></div>
+                </div>
+                <!-- <div class="google"></div> -->
+                <div class="g-plusone google" data-size="medium" data-annotation="none" data-href="<? echo $SITE_PATH ?>"></div>
+                <div class="getglue"></div>
+                <div class="twitter-tweet"><img border=0 src="images/twitter.png"></div>
+                <div class="facebook-share"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="links right">
+        <div class="credits"> 
+            Credits
+        </div>
+        <div class="legal">
+            <a href="http://www.warnerbros.com/#/page=privacy-policy/" target="_blank">Privacy Policy</a>
+            <a href="http://www.warnerbros.com/#/page=terms-of-use/" target="_blank">Terms of Use</a>
+            <a href="https://registration.warnerbros.com/yk5eu/MainPage.html" target="_blank">Register</a>
+        </div>
+    </div>
+
+    <div class="date middle">
+        <!-- <div class="release-date">July 19</div> -->
+        &copy; 2013 Warner Bros. Ent. All Rights Reserved.
+    </div>
+
+</div>
+
+<div class="billing-block">
+    <div class="close">X CLOSE</div>
+    <img border=0 src="images/billing-block.gif" width=895 height=149 alt="billing block">
+    <div class="rating">THIS FILM IS NOT YET RATED</div>
+</div>
+
+<div class="overlay">
+</div>
+
+<script>
+$(document).ready(function () {
+
+    $('.credits').click(function(){
+    	$('.billing-block').slideDown();
+    });
+
+    $('.billing-block').click(function(){
+    	$(this).slideUp();
+    }); 
+
+    $('.social.left .sharing').toggle(function(){
+            $('.share-sites').animate({'margin-left': 0}, 500);
+            $(this).addClass('open');
+        }, function() {
+            $('.share-sites').animate({'margin-left': '-345px'}, 500);
+            $(this).removeClass('open');
+            
+    }); 
+
+    // function sharing() {     
+    //     $('.social.left .sharing').show();
+    // }
+
+    //  // use setTimeout() to execute
+    //  setTimeout(sharing, 1000)
+    	  $('.share-sites .twitter-tweet').click(function(options)
+				{	
+				   
+					
+					var link = SITE_PATH;
+					
+					
+					getBitlyShare(link);
+				  	
+				
+		}); 
+
+    }); 
+</script>

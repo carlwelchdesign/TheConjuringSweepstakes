@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<site>    
+
+	<!-- ############################################ -->
+	<!-- ###########    BEGIN SETTINGS    ########### -->
+	<!-- ############################################ -->
+	
+	<!-- ARE THE SWEEPSTAKES AVAILABLE (true or false) -->
+	<isSweepstakesAvailable>false</isSweepstakesAvailable>
+	
+	
+	<!-- Set birthdate date (month, day) order for US vs EU  (true or false)-->
+	<isMMDDYYYY>true</isMMDDYYYY>
+
+
+    <!-- FACEBOOK STORY SHARE MSG -->
+    <FACEBOOK_STORY_SHARE_MSG>Checkout this scary story and see the The Conjuring movie in theaters July 19th.</FACEBOOK_STORY_SHARE_MSG>
+    
+    
+     <!-- TWITTER STORY SHARE MSG -->
+    <TWITTER_STORY_SHARE_MSG>#TheConjuring Check out this scary story and see The Conjuring in theaters July 19th</TWITTER_STORY_SHARE_MSG>
+
+	<!-- MORE SETTINGS CAN BE FOUND AT /lang/settings.php -->
+
+
+
+
+
+
+
+
+
+	<!-- ############################################ -->
+	<!-- ########### BEGIN LOCALISED TEXT ########### -->
+	<!-- ############################################ -->
+
+    <!-- index.php -->
+	
+	<!-- HEADER - LEFT SIDE -->
+	<yourhauntedstory>Your Haunted Story</yourhauntedstory>
+	<yourhauntedstoryDescription>Have you had a paranormal experience or know someone who lived in a haunted place? Tell us all of the terrifying details with a written story, photo or video.</yourhauntedstoryDescription>
+	<youcansubmit>You Can Submit:</youcansubmit>
+	<submitstory>SUBMIT YOUR STORY</submitstory>
+
+	<!-- HEADER - RIGHT SIDE -->
+	<entertowin></entertowin>
+	<rightsubtitle></rightsubtitle>
+	<atriptothepremiere>Have you or someone you know had a paranormal experience or lived in a haunted place?</atriptothepremiere>
+	<prizepackage><![CDATA[
+	The winner and a guest will receive a flight to Los Angeles, CA, 3 day 2 night hotel stay accommodations, transportation and 2 tickets to the premiere of The Conjuring, in theaters July 19. <br/><a href="signup.php">Click here to enter</a>.
+	]]></prizepackage>
+
+	<!-- STORY ENTRIES -->
+	<storysubmissions>Story Submissions</storysubmissions>
+	<filter>FILTER:</filter>
+    <filterby>FILTER BY:</filterby>
+	
+	<optionLatest>Latest</optionLatest>
+	<optionOldest>Oldest</optionOldest>
+	<optionPopularity>Popularity</optionPopularity>
+	<optionPhotos>Photos</optionPhotos>
+	<optionVideos>Videos</optionVideos>
+	<optionStory>Stories</optionStory>
+	<optionAll>All</optionAll>
+	
+	<readmore>READ MORE</readmore>
+	
+
+	<!-- signup.php AND submit.php HEADERS -->
+<!--
+	<yourhauntedstory>Your Haunted Story</yourhauntedstory>
+-->
+	<submitdescription>If you’ve had a paranormal experience or know someone who lived in a haunted place? Sign up with Facebook, Twitter, or Google +, upload your scary story, photo or video and share with friends. </submitdescription>
+	
+	
+
+	<firstboxtitle>Register</firstboxtitle>
+	<firstboxdesc>Sign up with Facebook, Twitter, or Google+</firstboxdesc>
+	
+	<secondboxtitle>Upload</secondboxtitle>
+	<secondboxdesc>Submit your scary story, photo, or video.</secondboxdesc>
+	
+	<thirdboxtitle>Finish</thirdboxtitle>
+	<thirdboxdesc>Thank you for entering!</thirdboxdesc>
+	
+	
+	<breadcrumb1 fontSize="22">1. REGISTER</breadcrumb1>
+	<breadcrumb2 fontSize="22">2. UPLOAD</breadcrumb2>
+	<breadcrumb3 fontSize="22">3. FINISH</breadcrumb3>	
+    
+    <!-- signup.php -->
+    
+    <signupwith>SIGN UP WITH:</signupwith>
+    <orsignup>OR SIGN UP:</orsignup>
+    
+    <username>Username*</username>
+    <usernameValMsg>A valid username is required.</usernameValMsg>
+    
+    <emaillabel>E-mail*</emaillabel>
+    <emailValMsg>A valid email address is required.</emailValMsg>
+    
+    <confirmemail>Confirm Email*</confirmemail>
+    <emailconfirmValMsg>Email address does not match.</emailconfirmValMsg>
+    
+    <birthdatelabel>Birth Date*</birthdatelabel>
+    <monthValMsg>Select a Month</monthValMsg>
+    <dayValMsg>Select a Day</dayValMsg>
+    <yearValMsg>Select a Year</yearValMsg>
+    
+    <phonelabel>Phone Number*</phonelabel>
+
+    <phonenumValMsg>A phone number is required</phonenumValMsg>
+    <mm>MM</mm>
+    <dd>DD</dd>
+    <yyyy>YYYY</yyyy>
+    
+    <citylabel>City*</citylabel>
+    <cityValMsg>A valid city is required.</cityValMsg>
+    <country>Country*</country>
+    <statelabel>State*</statelabel>
+    <stateValMsg>A valid state is required.</stateValMsg>
+    
+    <checktoenterlabel>CHECK BELOW IF YOU WOULD LIKE TO ENTER THE SWEEPSTAKES</checktoenterlabel>
+    
+    <termslabel>
+    <![CDATA[
+    NO PURCHASE NECESSARY TO ENTER OR WIN. A PURCHASE WILL NOT INCREASE YOUR CHANCES OF WINNING. ODDS OF WINNING WILL DEPEND ON THE TOTAL NUMBER OF ENTRIES RECEIVED. VOID IN AK, HI, WHERE PROHIBITED BY LAW.  Sweepstakes only open to legal residents of the 48 contiguous U.S. or D.C., 18 years and older. Sweepstakes begins on or about 10:00 a.m. PDT on 7/3/13 and ends at 5:00 p.m. PDT on 7/8/13. ARV of all prizes: $2,650. Subject to full <a tabindex="1200" target="_blank" href="sweepstakes_rules.html">Official Rules</a>. Sponsor: Warner Bros. Entertainment Inc., 4000 Warner Boulevard, Burbank, CA 91505.
+    ]]>
+    </termslabel>
+    
+    <signuptermsValMsg>You must agree to the terms and conditions.</signuptermsValMsg>
+    
+    <legaldisclaimer><![CDATA[
+    NO PURCHASE NECESSARY TO ENTER OR WIN. A PURCHASE WILL NOT INCREASE YOUR CHANCES OF WINNING. ODDS OF WINNING WILL DEPEND ON THE TOTAL NUMBER OF ENTRIES RECEIVED. VOID IN AK, HI, WHERE PROHIBITED BY LAW.  Sweepstakes only open to legal residents of the 48 contiguous U.S. or D.C., 18 years and older. Sweepstakes begins on or about 10:00 a.m. PDT on 7/3/13 and ends at 5:00 p.m. PDT on 7/8/13. ARV of all prizes: $2,650. Subject to full <a tabindex="1200" target="_blank" href="sweepstakes_rules.html">Official Rules</a>. Sponsor: Warner Bros. Entertainment Inc., 4000 Warner Boulevard, Burbank, CA 91505.
+    ]]></legaldisclaimer>
+    
+    <cancel>CANCEL</cancel>
+    <next>NEXT></next>
+    <submit>SUBMIT</submit>
+
+
+    <!-- story.php -->
+    <back>BACK</back>
+
+
+    <!-- AGE GATE -->
+    <agegate_title>SORRY!</agegate_title>
+    <agegate_desc><![CDATA[
+    You are not eligible to submit content. On the bright side, we won't stop you from reading the scary stories.
+    ]]></agegate_desc>
+    <agegate_return>RETURN TO HOME</agegate_return>
+    
+
+    <!-- mobile GATE -->
+    <mobile_title>SORRY!</mobile_title>
+    <mobile_desc><![CDATA[
+    Mobile devices are not supported. Please use your desktop computer to submit your story. Thank you!
+    ]]></mobile_desc>
+    <mobile_return>RETURN TO HOME</mobile_return>
+    
+    <!-- submit.php -->
+    
+    <!-- THANK YOU -->
+    <thanksforentering>Thanks For Entering!</thanksforentering>
+    <thanksforentering_NOCONTEST>Thanks! Now submit your scary story.</thanksforentering_NOCONTEST>
+    <thankyoudesc>You can submit your scary story, photo or video OR go back to the home page and checkout others scary stories.</thankyoudesc>
+    <backtohome>BACK TO HOME</backtohome>
+    <continue>CONTINUE</continue>
+    
+    <!-- SORRY -->
+    <sorry>SORRY.</sorry>
+    <sorrydesc>There was a problem with your entry. Please try again</sorrydesc>
+    <tryagain>TRY AGAIN</tryagain>
+    
+    <!-- SUBMIT MEDIA -->
+    <submityourstory>Submit Your Story</submityourstory>
+    <chooseyourcontent>Choose the content you wish to upload:</chooseyourcontent>
+    <story>Story</story>
+    <photo>Photo</photo>
+    <video>Video</video>
+    
+    <writtenstory fontSize="22">Written Story</writtenstory>
+    <typeyourstory>Type Your Story Below</typeyourstory>
+    <storyValMsg>Where's your story?</storyValMsg>
+    
+    <imageupload fontSize="22">Image Upload</imageupload>
+	<selectimage>Select an image file (jpg, gif, png) from your computer to upload to the website.</selectimage>
+	<photoValMsg>Where's your photo?</photoValMsg>
+	<imagedesc>Image Description</imagedesc>
+	
+    <videoupload fontSize="22">Video Upload</videoupload>
+    <selectvideo>Record your video in your favorite program. Click the browse button to select your video to upload to your YouTube account.</selectvideo>
+    <videoValMsg>Where's your video?</videoValMsg>
+	<videodesc>Video Description</videodesc>
+	
+    <browsefile>BROWSE FILE</browsefile>
+    
+    <submitcheckbox><![CDATA[
+    NO PURCHASE NECESSARY TO ENTER OR WIN. A PURCHASE WILL NOT INCREASE YOUR CHANCES OF WINNING. ODDS OF WINNING WILL DEPEND ON THE TOTAL NUMBER OF ENTRIES RECEIVED. VOID IN AK, HI, WHERE PROHIBITED BY LAW.  Sweepstakes only open to legal residents of the 48 contiguous U.S. or D.C., 18 years and older. Sweepstakes begins on or about 10:00 a.m. PDT on 7/3/13 and ends at 5:00 p.m. PDT on 7/8/13. ARV of all prizes: $2,650. Subject to full <a tabindex="1200" target="_blank" href="sweepstakes_rules.html">Official Rules</a>. Sponsor: Warner Bros. Entertainment Inc., 4000 Warner Boulevard, Burbank, CA 91505.
+    ]]></submitcheckbox>
+    
+
+    
+    
+    <submitwarning>You need to select Story, Photo, or Video before you can submit your entry.</submitwarning>
+    
+    <termslabelsubmit>
+    <![CDATA[
+    By uploading a file, I confirm that I own and/or have all necessary rights in this content, including permission from all individuals depicted in or that contributed to the content, sufficient for Warner Bros. Entertainment Inc. (“Warner Bros.”) to use it for commercial purposes. I understand and acknowledge that as further detailed in the Warner Bros. <a tabindex="1100" target="_blank" href="http://www.warnerbros.com/privacy/terms.html">Terms of Use</a>, I am granting Warner Bros., including its licensees and assignees, the irrevocable, perpetual, royalty-free and non-exclusive right and license to use this content for the worldwide marketing and advertising of The Conjuring in all media now known or hereafter devised, without any compensation or other obligation to me or others depicted. I reviewed the content <a tabindex="1200" target="_blank" href="sweepstakes_rules.html">Submission Requirements</a> in the
+<a tabindex="1300" target="_blank" href="http://www.warnerbros.com/privacy/terms.html">Terms of Use</a> and confirm that the content complies with these requirements.
+    ]]>
+    
+    </termslabelsubmit>
+    
+    
+    <!-- thankyou.php -->
+    <!-- success -->
+    <thankyou>Thank You.</thankyou>
+	<thankyoumsg><![CDATA[
+	Check back soon to see your story on the site. All submissions are subject to approval. Don't forget to watch <em>The Conjuring</em> in theaters starting on July 19th!
+	]]></thankyoumsg>
+	<by>By:</by>
+	<SUBMITYOURSTORYBUTTON>SUBMIT YOUR STORY</SUBMITYOURSTORYBUTTON>
+
+    <!-- footer.html -->
+    <share>SHARE</share>
+    <copyright><![CDATA[
+    &copy; 2013 Warner Bros. Ent. All Rights Reserved.
+    ]]></copyright>
+   
+    <legal><![CDATA[
+    <a target="_blank" href="http://www.warnerbros.com/#/page=privacy-policy/">Privacy Policy</a>
+	<a target="_blank" href="http://www.warnerbros.com/#/page=terms-of-use/">Terms of Use</a>
+	<a target="_blank" href="https://registration.warnerbros.com/yk5eu/MainPage.html">Register</a>
+    ]]></legal>
+    <credits>CREDITS</credits>
+    <rating></rating>
+    <close>X CLOSE</close>
+
+
+    <!-- Top social links -->
+    <facebookpage><![CDATA[
+        http://www.facebook.com/TheConjuringMovie?group_id=0
+    ]]></facebookpage>
+    <twitterpage><![CDATA[
+         https://twitter.com/TheConjuring
+    ]]></twitterpage>
+
+    <hashtag>#TheConjuring</hashtag>
+
+    <likebutton>LIKE</likebutton>
+
+    <sharelabel>SHARE</sharelabel>
+    
+    
+    
+    <!-- SOCIAL SHARING (located in Footer) -->
+    <facebook_like visible="true"><![CDATA[
+        <!-- this cannot be XML driven, but can be turned off here with the 'visible' flag -->
+    ]]></facebook_like>
+
+    <twitter-tweet visible="true">#TheConjuring Submit your Haunted Stories and see The Conjuring in theaters July 19th</twitter-tweet>
+
+    <facebook_share visible="true"><![CDATA[
+        <a href="http://www.facebook.com/share.php?u=href=http%3A%2F%2Fyourhauntedstories.theconjuringmovie.com&title=See%20The%20Conjuring%2C%20in%20theaters%20July%2019" target="_blank"><img border=0 src="images/facebook.png"></a>
+    ]]></facebook_share>
+    
+    <gplus visible="true"><![CDATA[
+        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <g:plusone size="medium" annotation="none"></g:plusone>
+    ]]></gplus>
+    
+    <getglue visible="true"><![CDATA[
+        <a href="http://getglue.com" class="glue-checkin-widget" data-objectId="movies/conjuring/james_wan" data-type="horizontal">Check-in on GetGlue</a>
+        <script src="http://widgets.getglue.com/checkin.js" type="text/javascript"></script>
+
+    ]]></getglue>
+
+
+
+    <!-- Youtube -->
+    
+    <logintoyour>Log into your</logintoyour>
+    <ytaccount>account</ytaccount>
+    
+    <youryoutubevideoidis>Your YouTube Video ID is:</youryoutubevideoidis>
+    <uploadvideo>UPLOAD VIDEO</uploadvideo>
+    <logintoyoutube>LOG INTO YOUTUBE</logintoyoutube>
+    <youtubedesc>YouTube account is required. Your video cannot already exist on or be uploaded from YouTube. Make sure you've created a Youtube Channel to upload your videos to. Also, videos cannot be uploaded from any other online source. A locally stored copy of a video file is required to upload a video.</youtubedesc>
+    <videouploaded>Video Uploaded</videouploaded>
+    <!-- IMAGES -->
+    
+    <conjuringlogo>images/logo_tt.png</conjuringlogo>
+    <waystosubmit>images/waystosubmit.png</waystosubmit>
+    <openingdate>images/social_temp.png</openingdate>
+
+    <FIRST_STEP>../images/step1.png</FIRST_STEP>
+    <SECOND_STEP>../images/step2.png</SECOND_STEP>
+    <THIRD_STEP>../images/step3.png</THIRD_STEP>
+    
+    
+    
+</site>

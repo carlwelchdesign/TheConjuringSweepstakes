@@ -1,0 +1,68 @@
+body
+{
+	
+	font-family: arial, helvetica, sans-serif;
+	
+}
+
+.item
+{
+
+	width: 600px;
+	border: 1px solid #333;
+	margin:5px auto;
+	
+	padding: 5px;
+	
+}
+
+.itemtitle
+{
+
+    font-size: 2em;
+    margin: 0;
+}
+
+.videoUser
+{
+	
+	font-size: .9em;
+
+}
+
+.controls
+{
+
+    font-size: 0.8em;
+    left: 437px;
+    position: relative;
+    top: 13px;
+	
+}
+
+.story
+{
+
+	font-size: 0.8em;
+	
+}
+
+
+.playicon
+{
+ 
+    margin: 37px -230px;
+    /* margin: -151px auto; */
+    position: absolute;
+  
+}
+
+
+.photo
+{
+	
+	width:300px;
+	height:194px;
+	margin-top: 11px;
+	background-size:cover !important;
+}
